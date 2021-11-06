@@ -1,10 +1,10 @@
-# PHP Router
+<h1 align="center">PHP Router</h1>
 
-This is a Simple PHP router.
+<p align="center">This is a Simple PHP router.</p>
 
 ## Installation
 
-Just download the router.php file and require it in in the file on which you plan to defile your routes.
+Just download the router.php file and require it in the file in which you plan to define your routes.
 
 
 
@@ -24,7 +24,7 @@ $router->get('/contactus', 'contactController');
 $router->run();
 ```
 
-Handler Function requires 3 inputs HTTP method name, route and Function respectively.
+Handler Function requires 3 variables that is HTTP method name, route and Function respectively.
 
 In place of handler function you can use $router->get, post, put, delete the only difference is that you need to pass just 2 variables which are route and function respectively. 
 
